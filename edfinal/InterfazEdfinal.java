@@ -14,6 +14,8 @@ public class InterfazEdfinal extends JFrame {
     private JTextField calleField;
     private JTextField localidadField;
     private JTextField codPostalField;
+    private final JTextField profesionalField;
+    private final JTextField visitasdniField;
     private final JTextField fechaField;
     private final JTextField horaField;
     private final JTextField pesoField;
@@ -47,6 +49,8 @@ public class InterfazEdfinal extends JFrame {
         calleField = new JTextField();
         localidadField = new JTextField();
         codPostalField = new JTextField();
+        profesionalField = new JTextField();
+        visitasdniField = new JTextField();
         fechaField = new JTextField();
         horaField = new JTextField();
         pesoField = new JTextField();
@@ -146,9 +150,12 @@ public class InterfazEdfinal extends JFrame {
         // Agregar etiquetas y campos de entrada para las visitas
         add(new JLabel("Visitas"));
         add(new JLabel(""));
+        
+        add(new JLabel("Profesional:"));
+        add(profesionalField);
 
         add(new JLabel("DNI:"));
-        add(profesionalDniField);
+        add(visitasdniField);
 
         add(new JLabel("Fecha:"));
         add(fechaField);
@@ -171,19 +178,20 @@ public class InterfazEdfinal extends JFrame {
         add(btnSaltar);
         add(btnRegistrar);
 
-        // Configurar acción del botón Saltar
+   
         btnSaltar.addActionListener((ActionEvent e) -> {
-            // Ir a la sección de profesionales
+  
             removeFields();
             addProfessionalFields();
             validate();
             repaint();
         });
 
-        // Configurar acción del botón Registrar
+       
         btnRegistrar.addActionListener((ActionEvent e) -> {
-            // Registrar los datos en el archivo correspondiente
-            String dni = profesionalDniField.getText();
+          
+            String profesional = profesionalField.getText();
+            String dni = visitasdniField.getText();
             String fecha = fechaField.getText();
             String hora = horaField.getText();
             double peso = Double.parseDouble(pesoField.getText());
@@ -191,7 +199,7 @@ public class InterfazEdfinal extends JFrame {
             double altura = Double.parseDouble(alturaField.getText());
             String unidadAltura = unidadAlturaField.getText();
             
-            registrarVisita(dni, fecha, hora, peso, unidadPeso, altura, unidadAltura);
+            registrarVisita(profesional,dni, fecha, hora, peso, unidadPeso, altura, unidadAltura);
             
             // Ir a la sección de profesionales
             removeFields();
@@ -272,12 +280,13 @@ public class InterfazEdfinal extends JFrame {
         }
     }
 
-    private void registrarVisita(String dni, String fecha, String hora, double peso, String unidadPeso, double altura, String unidadAltura) {
+    private void registrarVisita(String profesional,String dni, String fecha, String hora, double peso, String unidadPeso, double altura, String unidadAltura) {
         // Registro de la visita en el archivo visitas.txt
         try {
             FileWriter fw = new FileWriter("visitas.txt", true);
             PrintWriter pw = new PrintWriter(fw);
-
+            
+            pw.println("Profesional: " + profesional);
             pw.println("DNI: " + dni);
             pw.println("Fecha: " + fecha);
             pw.println("Hora: " + hora);
