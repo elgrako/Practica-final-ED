@@ -1,0 +1,14 @@
+Profesional: DA
+DNI: X1
+Fecha: 5/5/2000
+Hora: 15:15
+Peso: 80.0 kg
+Altura: 180.0 cm
+-----------------------
+Profesional: DA
+DNI: 2378456
+Fecha: 5/5/2000
+Hora: 14:14
+Peso: 78.0 kg
+Altura: 160.0 cm
+-----------------------

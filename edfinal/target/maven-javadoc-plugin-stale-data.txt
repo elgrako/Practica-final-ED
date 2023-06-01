@@ -1,0 +1,45 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'20'
+-sourcepath
+'C:/Users/elgra/Documents/NetBeansProjects/edfinal/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/elgra/Documents/NetBeansProjects/edfinal/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'edfinal 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'edfinal 1.0-SNAPSHOT API'
+edfinal
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\src\main\java = 1684402328395
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\allclasses-index.html = 1685529869796
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\allpackages-index.html = 1685529869799
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\copy.svg = 1685529869836
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\element-list = 1685529869702
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\help-doc.html = 1685529869830
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\index-all.html = 1685529869820
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\index.html = 1685529869824
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\member-search-index.js = 1685529869805
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\module-search-index.js = 1685529869801
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\overview-tree.html = 1685529869781
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\package-search-index.js = 1685529869802
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\script.js = 1685529869835
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\search-page.js = 1685529869842
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\search.html = 1685529869822
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\search.js = 1685529869840
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\serialized-form.html = 1685529869746
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\stylesheet.css = 1685529869833
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\tag-search-index.js = 1685529869807
+C:\Users\elgra\Documents\NetBeansProjects\edfinal\target\site\apidocs\type-search-index.js = 1685529869804

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"edfinal","l":"Conexion"},{"p":"edfinal","l":"InterfazEdfinal"},{"p":"edfinal","l":"RegistrarPaciente"},{"p":"edfinal","l":"RegistrarProfesional"},{"p":"edfinal","l":"RegistrarVisita"},{"p":"edfinal","l":"TestConexion"}];updateSearchResults();

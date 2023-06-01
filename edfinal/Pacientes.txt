@@ -1,0 +1,7 @@
+DNI: X1
+Nombre: SA
+Edad: 1
+Calle: Z
+Localidad: Z
+Código Postal: 1
+-----------------------

@@ -1,0 +1,16 @@
+Código: 456
+DNI: X2
+Nombre: DA
+Apellidos: 15:15
+Localidad: Z
+Teléfono: 123456789
+Especialidad: kg
+-----------------------
+Código: 2894756
+DNI: X2
+Nombre: DA
+Apellidos: 14:14
+Localidad: Z
+Teléfono: 476
+Especialidad: kg
+-----------------------
